@@ -20,9 +20,9 @@ namespace Week_7_Tutorial
             DisplayEmployeeList(FilterByGender(employees, Gender.Male));
         }
 
-        static void DisplayEmployeeList(List<Employee> employees)
+        static void DisplayEmployeeList(List<Employee> staff)
         {
-            foreach (Employee e0 in employees)
+            foreach (Employee e0 in staff)
             {
                 Console.WriteLine(e0.ToString()); 
             }
